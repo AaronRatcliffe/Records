@@ -1,0 +1,24 @@
+#webComic{
+	margin-left: 3%;
+	padding: 2%;
+	width: 91%;
+	height: 85%;
+	background: #2E5C00;
+	border-style: outset;
+	border-color: #003300;
+	border-width: 5;
+}#BB{		height: 5%;	float: left;	margin-top: 40%;	width: 6%;}#FB{		height: 5%;	float: right;	margin-top: 40%;	width: 6%;}#selectBar{		clear: both;	margin-left: 10%;	height: 15%;	width: 90%}img.comicSelect{	margin: 1%;	width: 14%;	height: 90%;}.comicSelect{		float: left;	margin-top: 8%;	}#LS{	height: 25%;	width: 6%;	}#NS{	height: 25%;	width: 6%;	}
+#panel{
+		clear: both;	margin-left: 2%;
+	width: 83%;
+	height: 84%;
+	border-style: outset;
+	border-color: #003300;
+	border-width: 5;	
+}
+#mainContent{	
+	height: 110%;
+}
+#comicB img{
+	opacity: 0.5;
+}

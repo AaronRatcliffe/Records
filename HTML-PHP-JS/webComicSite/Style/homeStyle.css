@@ -1,0 +1,10 @@
+/* style for the homepage */
+#joshPic{
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
+	height: 50%;
+}
+#homeB img{
+	opacity: 0.5;
+}

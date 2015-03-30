@@ -1,0 +1,142 @@
+/* 
+the overall style of the website Josh's Works
+*/
+
+head{
+	margin: 0;
+	padding: 0;
+	font-size: 85%;
+	font-family: "Garamond Premier Pro", Garamond, serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 90%;
+	background: #001036;
+	font-family: "Garamond Premier Pro", Garamond, serif;
+}
+.border{
+	position: fixed;
+	bottom: 0%;	
+	width: 17%;
+	left: 0%;
+	height: 20%;
+	border-style: groove;
+	border-collapse: collapse;
+	border-color: #2E5C00;
+	border-width: 5;
+	z-index: -1;
+}
+#mainContent{
+	background: #EFEFEF;
+	margin-left: 21%;
+	margin-top: 13%;
+	width: 65%;
+	padding-left: 3%;
+	padding-right: 3%;
+	border-style: inset;
+	border-color: #2E5C00;
+	border-width: 5;
+	height: 85%;
+	font-size: 110%;
+}
+#bannerText{	z-index: 10;	font-size: 350%;	color: blue;	padding-top: 3%;}#bannerImage{	border-style: groove;	border-color: #2E5C00;	border-collapse: collapse;	border-width: 5;}
+#bannerImage, #bannerText{
+	position: fixed;
+	opacity: 1.0;
+	top: 0%;
+	left: 0%;
+	height: 15%;
+	width: 99.4%;
+	text-align: center;
+	margin-top: 0%;
+}
+/* this is creating the navagation bar*/
+#navBar{
+	font-size: 70%;
+	padding: 1%;
+	background: #B2B2B2;
+	position: fixed;
+	top: 15.7%;
+	left: 0%;
+	height: 58.5%;
+	width: 15%;
+	border-style: groove;
+	border-collapse: collapse;
+	border-color: #2E5C00;
+	border-width: 5;
+	z-index: 1;
+}
+#navBar img{
+	width: 100%;
+	height: 100%;	
+}
+
+#navBar h1{
+	padding-bottom: 7%;
+	margin-left: 15%;
+}
+#navBar ul{
+	font-size: 200%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#navBar ul li{
+	display: block;
+	position: relative;
+	margin: 4%;
+	margin-left: -3%;
+}
+#navBar li ul{
+	font-size: 100%;
+	display: none;
+}
+#navBar ul li a{
+	display: block;
+	background: #2E5C00;
+	height: 18%;
+	width: 100%;
+	border-style: outset;
+	color: #ACAC19;
+}
+#navBar ul li a:hover{
+	opacity: 0.7;
+}
+#navBar li:hover ul{
+	display: block;
+	position: absolute;
+	margin-left: 102%;
+	margin-top: -37%;
+	width: 120%;
+	height: 50%;
+}
+#navBar li:hover li{
+	margin: 0;
+	padding: 0;
+}
+#navBar li:hover li a{
+	padding: 1%;
+	padding-left: 2%;
+	background: #2E5C00;
+	text-align: left;
+	height: 50%;
+	width:75%;
+}
+#navBar #galleryB:hover li a{
+	width: 50%;
+}
+#navBar li:hover li a:hover{
+	background: #003300;
+}
+/* the end of the navagation bar*/
+
+#mainContent h1{
+	opacity: 1.0;
+	text-align: center;
+}
+#mainContent p{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}

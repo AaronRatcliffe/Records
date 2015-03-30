@@ -1,0 +1,44 @@
+#forumsB img{
+	opacity: 0.5;
+}
+#spacer{
+	height: 17%;
+	width: 100%;
+}
+.post{
+	background: #EFEFEF;
+	margin-left: 30%;
+	margin-top:2%;
+	width: 40%;
+	padding: 2%;
+	border-style: inset;
+	border-color: #2E5C00;
+	border-width: 3;
+	height: 30%;
+	font-size: 110%;
+}
+form{
+	height: 95%;
+	width: 95%;
+}
+#submitPost{
+	border-style: inset;
+	border-color: #2E5C00;
+	border-width: 3;
+	background: #EFEFEF;
+	margin-left: 33%;
+	margin-top: 5%;
+	padding: 1%;
+	height: 400px;
+	width: 650px;
+}
+.heading{
+	display: block;
+	margin-top: 2%;
+}
+label{
+	margin: .5%;
+}
+input{
+	margin-right: 1.5%;
+}

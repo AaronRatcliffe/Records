@@ -1,0 +1,24 @@
+<img id = "bannerImage" src = "mainPics/banner.jpg" alt = "the banner of the website"/><div id = "navBar">
+	<h1>General Site Links</h1>
+	<ul>
+		<li id = "homeB"><a href = "index.php"><img class = "button" src = "mainPics/homeButton.jpg"/></a></li>
+		<li id = "galleryB"><a href = "anatomy.php"><img class = "button" src = "mainPics/galleryButton.jpg"/></a>
+			<ul>
+				<li><a href = "anatomy.php"><div id = "anatomyG">Anatomy Art</div></a></li>
+				<li><a href = "digital.php"><div id = "digitalG">Digital Art</div></a></li>
+				<li><a href = "sketches.php"><div id = "sketchG">Sketch Art</div></a></li>
+			</ul>
+		</li>
+		<li id = "comicB"><a href = "webComic.php"><img class = "button" src = "mainPics/comicButton.jpg"/></a></li>
+		<li id = "forumsB"><a href = "websiteFeedback.php"><img class = "button" src = "mainPics/forumButton.jpg"/></a>
+			<ul>
+				<li><a href = "websiteFeedback.php"><div id = "ideaD">Website Ideas Discussion</div></a></li>
+				<li><a href = "comicDiscution.php"><div id = "comicD">Comic Discussion</div></a></li>
+				<li><a href = "artDiscution.php"><div id = "artD">Artistic Style Discussion</div></a></li>
+				<li><a href = "survey.php"><div id = "survey">Survey Page</div></a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+		
+<img class = "border" id = "bLeft" src = "mainPics/border.jpg" alt = "the border of the website"/>
